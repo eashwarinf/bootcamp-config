@@ -45,11 +45,11 @@ rawdbs:
                 - source: csv
                   schedule: On trigger
                   contacts:
-                      - name: 'Eashwar'
-                        email: 'eashwar_n@infosys.com'
+                      - name: Eashwar
+                        email: eashwar_n@infosys.com
                         role: Bootcamp 17 Administrator
                         send-notification: false
-   
+
     - rawdb-name: src:002:opcua:db
       dataset-external-id: src:002:opcua:ds
       short-name: opcua
@@ -62,7 +62,7 @@ rawdbs:
                 - source: ice-cream-api
                   schedule: On trigger
                   contacts:
-                      - name: 'Eashwar'
-                        email: 'eashwar_n@infosys.com'
+                      - name: Eashwar
+                        email: eashwar_n@infosys.com
                         role: Bootcamp 17 Administrator
                         send-notification: false
